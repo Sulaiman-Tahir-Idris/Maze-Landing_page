@@ -29,11 +29,29 @@
                 </ul>              
             </div>
         </div>
-        <img src="/img/3.gif">
-        <h2><a href="about.html">FEATURES OF THE GAME</a></h2>
+        <h1>About the game</h1>
+        <p>Maze project is a game developed in the C language using the SDL2 library. It is a labyrinth game where the player's objective is to find the exit. Despite not being created with popular game engines like Unity or Unreal, the project deliberately aims to create an old-fashioned game without relying on a game engine. The project has three main goals: 
+            <ul>
+                <li>To explore the possibility of creating a game without a game engine.</li>
+                <li>To learn the mathematics and physics behind game development.</li>
+                <li>To evoke nostalgia for older games like Wolfenstein 3D, particularly in terms of graphics.</li>
+            </ul>
+            The Maze project draws inspiration from Wolfenstein 3D, a well-known video game. It shares similarities with Wolfenstein 3D in terms of the grid-based layout, uniform wall heights, and solid colored floors and ceilings. In this project, the game world is rendered by tracing a ray for each column of pixels on the screen. The vertical slice of the wall texture is selected and scaled based on the position of the ray's intersection with the walls. While the Maze project does not aim to replicate the complexity of Wolfenstein 3D, its objective is to establish the basic framework for creating a similar game environment and implementing player movement.
+        </p><br>
+        <h3>Raycasting</h3>
+        <img src="/img/ray.gif">
+        <p>Ray-casting is a technique that converts a simplified map or floor plan into a 3D projection by tracing rays from the player's viewpoint. It gained popularity with the release of the game Wolfenstein 3D by iD Software in 1992. Ray-casting is fast because calculations are only required for each vertical line of the screen.</p>
+        <h3>Rotation</h3>
+        <p>In this part of the project, I provide a way to rotate the camera during the exectution. the camera is rotated using left & right keys. you can also use a & d from the keybored to rate the camera either clockwise or counterclockwise.both keys from the keybord, arrow or a,d can be used to rotate the player in every direction at a given postion.</p>
+        <h3>Collision Detection</h3>
+        <p>It detects the collision of a player</p>
+        <img src="/img/pic5.png">
+        <h3>MiniMap</h3>
+        <p>The player can activate a minimap to be able to orient themselves in the maze</p>
+        <img src="/img/pic2.png"> 
 
-        <h3><a href="https://github.com/Sulaiman-Tahir-Idris/alx-maze_project">Project Link</a></h3>
-            
+        <p>The Game is a challenging maze game that is meant to challenge the player mentally and physically by overcomming various obstacles. Playing it takes you through various entertaining adventures the will definitely leave you satisfied.</p>
+
         <div class="footer">
             <div class="footer_resize">
                 <section id="profile">
@@ -51,5 +69,4 @@
                     <div class="clr"></div>
             </div>
         </div>
-    </body>
 </html>
